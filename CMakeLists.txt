@@ -3,6 +3,8 @@ project(tiny_renderer_ray_tracing)
 
 set(CMAKE_CXX_STANDARD 11)
 
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
 file(GLOB SRC
         ${PROJECT_SOURCE_DIR}/*.cpp
         ${PROJECT_SOURCE_DIR}/src/*.cpp
